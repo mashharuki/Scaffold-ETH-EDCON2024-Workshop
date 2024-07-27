@@ -17,6 +17,8 @@ contract YourContract is Ownable {
 
 	receive() external payable {}
 
+	fallback() external payable {}
+
 	/**
 	 * Function to get the current count
 	 */
